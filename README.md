@@ -1,6 +1,8 @@
 # Study_Group
 study
 
+# 선물이에요 ㅎㅎ
+![ㅎㅎㅎ](https://image.ajunews.com/content/image/2020/07/23/20200723105836160790.jpg)
 
 1. 영은님 만들지 마세요
   1. 만들지마세요
