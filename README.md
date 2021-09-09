@@ -1,6 +1,8 @@
 # Study_Group
 study
 
+# 내일 수업듣는 재욱님
+![ㅋㅋㅋㅋㅋ](https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/hm/2021/05/23/202105230928428553357_20210523093508_01.jpg)
 
 # 선물이에요 ㅎㅎ
 ![ㅎㅎㅎ](https://image.ajunews.com/content/image/2020/07/23/20200723105836160790.jpg)
