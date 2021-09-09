@@ -32,6 +32,7 @@ study
 
 ![플러스 방명수 굿모닝](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJMTHXBfENZwwFgI15aX6JcEHoCbRg2qmoVg&usqp=CAU)
 
+### 어딜가신거에요!!!!
 ![어딜간거야!!!](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVbMIdPWt0ler3apuSD_tHA6zlp6YRXCm4jQ&usqp=CAU)
 
 
