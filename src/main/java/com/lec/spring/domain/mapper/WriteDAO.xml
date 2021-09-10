@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  <mapper namespace="com.lec.spring.domain.WriteDAO">
+  
+  	<select id="select" resultType="com.lec.spring.domain.WriteDTO">
+  		SELECT
+  			mn_uid uid,
+  			mn_name name,
+  			mn_kind kind,
+  			mn_price price
+  		FROM
+  			exam_menu
+  		ORDER BY
+  			mn_uid DESC
+  </select>
+  
+  	<insert id="insert" flushCache="true"
+		parameterType="com.lec.spring.domain.WriteDTO"
+		keyProperty="uid" useGeneratedKeys="true" keyColumn="mn_name">	
+		INSERT INTO exam_menu
+			(mn_name, mn_kind, mn_price)
+		VALUES
+			(#{name}, #{kind}, #{price})
+	</insert>
+	
+	<select id="selectByUid" resultType="com.lec.spring.domain.WriteDTO">
+		SELECT 
+			mn_uid uid, mn_name name, mn_kind kind, mn_price price 
+		FROM exam_menu 
+		WHERE mn_uid=#{uid}
+	</select>
+	
+	<update id="update" flushCache="true" parameterType ="com.lec.spring.domain.WriteDTO">
+		UPDATE exam_menu
+		set mn_name = #{name}, mn_kind = #{kind}, mn_price = #{price}
+		WHERE mn_uid = #{uid}
+	</update>
+	
+	<delete id="deleteByUid" flushCache="true">
+		DELETE FROM exam_menu WHERE mn_uid = #{uid}
+		
+	</delete>
+	
+  
+  </mapper>
